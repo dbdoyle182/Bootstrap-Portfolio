@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
-<header class="container">
+<header class="container mb-5 border-bottom border-dark">
     <nav class="navbar navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">
-            <h2>
-                Daniel Doyle
-            </h2>
+            <h2>Daniel Doyle</h2>
         </span>
         <ul class="nav nav-tabs justify-content-right">
             <li class="nav-item">
@@ -28,7 +26,66 @@
         </ul>
     </nav>
 </header>
-<body>
-    
+<body class="container mb-5 bg-light">
+    <div class="row">
+        <div class="col-md-8 bg-dark text-white pb-3">
+            <h1 class="text-info">
+                Contact 
+            </h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Type your message here</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info pd-3">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-1">
+            &nbsp;
+        </div>
+        <div class="col-md-3 bg-dark text-white w-75 p-3 h-50">
+            <aside>
+                <div>
+                    <h4 class="text-center text-info">Connect with Me</h4>
+                </div>
+                <hr>
+                <nav class="container">
+                    <ul class="list-unstyled row">
+                        <li class="col-md-4">
+                            <a href="https://github.com/dbdoyle182" target="_blank">
+                                <img class="float-left" src="./images/if_github_square_black_107109.png" alt="Github">
+                            </a>
+                        </li>
+                        <li class="col-md-4">
+                            <a href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" target="_blank">
+                                <img src="./images/if_linkedin_square_color_107091.png" alt="Linkedin">
+                            </a>
+                        </li>
+                        <li class="col-md-4">
+                            <a href="https://stackoverflow.com/users/story/9262448" target="_blank">
+                                <img src="./images/if_overflow_334695.png" alt="Stack Overflow">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
 </body>
+<hr>
+<footer class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            Copyright @ Daniel Doyle 2018
+        </div>
+    </div>
+</footer>
 </html>
