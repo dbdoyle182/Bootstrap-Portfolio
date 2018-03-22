@@ -8,61 +8,62 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<header class="container mb-5 border-bottom border-dark">
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">
-            <h2>Daniel Doyle</h2>
-        </span>
-        <ul class="nav nav-tabs justify-content-right">
-            <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
-</header>
 
-<body class="container mb-5 bg-light">
+
+<body class="container mb-5">
+    <header class="row mb-5 border-bottom border-dark sticky-top bookends">
+        <div class="col-md-12">
+            <nav class="navbar navbar-light">
+                <span class="navbar-brand mb-0 h1">
+                    <h2>Daniel Doyle</h2>
+                </span>
+                <ul class="nav nav-tabs justify-content-right">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="row">
-        <div class="col-md-8 bg-dark text-white">
+        <div class="col-md-7 contentbox text-white">
             <div>
-                <h1 class="text-info">About Me</h1>
+                <h1 class="text-light">About Me</h1>
                 <hr>
-                <img class="float-left mr-3 img-fluid" src="http://www.iloverscats.com/wp-content/uploads/2017/08/japanese-grumpy-cat-angry-koyuki-moflicious-8-1-3-200x150.jpg" alt="Daniel Doyle" class="imgme">
+                <img class="float-left mr-3 img-fluid imgme" src="./images/me.jpg" alt="Daniel Doyle">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur impedit dolorem sed sunt unde facere aliquam molestiae, molestias tenetur, quos similique consectetur aspernatur ipsam! Et dolores doloribus exercitationem nisi aliquam!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam rerum cum laborum tenetur aliquam expedita numquam exercitationem nulla dignissimos reiciendis voluptatum quidem autem inventore, fugiat amet maxime natus. Aspernatur, hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit quibusdam commodi amet adipisci est deleniti asperiores quod! Autem optio natus consequatur repellat. Dicta voluptates provident nesciunt distinctio ea nobis officia.
+                    I am an amateur full-stack developer who recently relocated to the Charlotte, NC area. Originally I was born in Rochester, New York before my family relocated to Charlotte where attended grade school through high school. I graduated high school in Charlotte in 2011 and pursued a degree in Communication Studies at The University of North Carolina at Chapel Hill. In college I participated in the surrounding area arts community performing in shows in places such as Raleigh, Chapel Hill, Durham and more. I studied there for three years before leaving to open my own restaurant in Greensboro, North Carolina. The prospect of running and managing my own business fascinated but was unfortunately cut short when I had to step down in order to handle family business that brought me back to Charlotte. In Charlotte I have had the oppurtunity to participate in UNCC and Trilogy Educations Coding Bootcamp and I have become fascinated with computer programming and development. I've been a lifelong fan of puzzles, games (video and board) and have found that coding in many respects appeals to that part of me.
                 </p>
             </div>
         </div>
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-md-3 bg-dark text-white w-75 p-3 h-50">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 col-sm-12 text-white w-75 p-1 h-50 contentbox">
             <aside>
                 <div>
-                    <h4 class="text-center text-info">Connect with Me</h4>
+                    <h4 class="text-center text-light">Connect with Me</h4>
                 </div>
                 <hr>
                 <nav class="container">
                     <ul class="list-unstyled row">
-                        <li class="col-md-4">
+                        <li class="col-md-4 col-sm-4">
                             <a href="https://github.com/dbdoyle182" target="_blank">
-                                <img class="float-left img-fluid" src="./images/if_github_square_black_107109.png" alt="Github">
+                                <img class="float-left img-fluid" src="./images/if_github_2308116 (1).png" alt="Github">
                             </a>
                         </li>
-                        <li class="col-md-4">
+                        <li class="col-md-4 col-sm-4">
                             <a href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" target="_blank">
-                                <img class="img-fluid" src="./images/if_linkedin_square_color_107091.png" alt="Linkedin">
+                                <img class="img-fluid" src="./images/if_linkedin_circle_294706.png" alt="Linkedin">
                             </a>
                         </li>
-                        <li class="col-md-4">
+                        <li class="col-md-4 col-sm-4">
                             <a href="https://stackoverflow.com/users/story/9262448" target="_blank">
-                                <img class="img-fluid" src="./images/if_overflow_334695.png" alt="Stack Overflow">
+                                <img class="img-fluid" src="./images/if_stackoverflow_1220302.png" alt="Stack Overflow">
                             </a>
                         </li>
                     </ul>
@@ -70,14 +71,12 @@
             </aside>
         </div>
     </div>
-
+    <hr>
+    <footer class="pb-5 pt-5 mt-3 bookends row">
+            <div class="col-md-12 text-center">
+                Copyright @ Daniel Doyle 2018
+            </div>
+    </footer>
 </body>
-<hr>
-<footer class="container pb-5 pt-5 mt-3 bg-dark">
-    <div class="row">
-        <div class="col-md-12 text-center text-info">
-            Copyright @ Daniel Doyle 2018
-        </div>
-    </div>
-</footer>
+
 </html>

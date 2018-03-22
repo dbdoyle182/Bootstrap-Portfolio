@@ -1,0 +1,19 @@
+a.nav-link {
+    color: black
+}
+.imgme {
+    width: 300px;
+    height: 200px
+}
+body {
+    background-color: darkslategray
+}
+
+.contentbox {
+    background-color: #002626;
+}
+
+.bookends {
+    background-color: #08605F;
+    color: paleturquoise
+}
