@@ -6,7 +6,8 @@ a.nav-link {
     height: 200px
 }
 body {
-    background-image: url('assets/images/concrete_wall_@2X.png')
+    /* background-image: url('assets/images/concrete_wall_@2X.png') */
+    background-color: slategray;
 }
 
 .contentbox {
