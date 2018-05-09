@@ -1,0 +1,23 @@
+[
+    {
+        "github":"https://github.com/dbdoyle182/Contech",
+        "url":"https://contech-app.herokuapp.com/",
+        "name":"Contech1",
+        "gif":"./images/contechgif.gif",
+        "description":"Contech Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/Contech",
+        "url":"https://contech-app.herokuapp.com/",
+        "name":"Contech2",
+        "gif":"./images/contechgif.gif",
+        "description":"Contech Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/Contech",
+        "url":"https://contech-app.herokuapp.com/",
+        "name":"Contech3",
+        "gif":"./images/contechgif.gif",
+        "description":"Contech Description"
+    }
+]

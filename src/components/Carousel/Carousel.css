@@ -1,0 +1,14 @@
+.carouselItem {
+    width: 50%;
+    height: 350px;
+}
+
+.carouselGif {
+    width: 100%;
+    height: 300px
+}
+
+.carouselBtn {
+    width: 50%;
+    height: 50px;
+}
