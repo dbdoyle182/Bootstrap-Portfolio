@@ -8,8 +8,8 @@ const Navbar = () => (
             <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav justify-content-end">
             <li className="nav-item active">
                 <a className="nav-link" href="/" rel="noopener noreferrer">Home <span className="sr-only">(current)</span></a>
             </li>

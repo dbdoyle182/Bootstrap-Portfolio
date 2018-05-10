@@ -88,14 +88,8 @@ class Portfolio extends Component {
         return (
             <section className='container'>
                 <div className='row'>
-                    <div className='col-xs-1 col-sm-1'>
-                        <button onClick={this.decrementClick.bind(this)} className='btn btnPosition'>
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Previous</span>
-                        </button>
-                    </div>
                     
-                    <div className='col-xs-10 col-sm-10 text-center'>
+                    <div className='col-md-12 text-center'>
                         <h1>Collaborative Projects</h1>
                         <Carousel 
                         url={this.state.project.url}
@@ -106,11 +100,26 @@ class Portfolio extends Component {
                         />
                     </div>
 
-                    <div className='col-xs-1 col-sm-1'>
-                        <button onClick={this.incrementClick.bind(this)} className='btn btnPosition'>
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Next</span>
-                        </button>
+                </div>
+                <br />
+                <div className='row'>
+                    <div className='col-md-12'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='btnContainer col-sm-6 col-md-6'>
+                                    <button onClick={this.decrementClick.bind(this)} className='btn btnPosition'>
+                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span className="sr-only">Previous</span>
+                                    </button>
+                                </div>
+                                <div className='btnContainer col-sm-6 col-md-6'>
+                                    <button onClick={this.incrementClick.bind(this)} className='btn btnPosition'>
+                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span className="sr-only">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -118,14 +127,8 @@ class Portfolio extends Component {
                 <br /> <br />
 
                 <div className='row'>
-                    <div className='col-xs col-sm-1'>
-                        <button onClick={this.decrementSolo.bind(this)} className='btn btnPosition'>
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Previous</span>
-                        </button>
-                    </div>
                     
-                    <div className='col-xs col-sm-10 text-center'>
+                    <div className='col-md-12 text-center'>
                         <h1>Solo Projects</h1>
                         <Carousel 
                         url={this.state.solo.url}
@@ -136,14 +139,30 @@ class Portfolio extends Component {
                         />
                     </div>
 
-                    <div className='col-xs col-sm-1'>
-                        <button onClick={this.incrementSolo.bind(this)} className='btn btnPosition'>
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Next</span>
-                        </button>
+                </div>
+                <br />
+                <div className='row'>
+                    <div className='col-md-12'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='btnContainer col-sm-6 col-md-6'>
+                                    <button onClick={this.decrementSolo.bind(this)} className='btn btnPosition'>
+                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span className="sr-only">Previous</span>
+                                    </button>
+                                </div>
+                                <div className='btnContainer col-sm-6 col-md-6'>
+                                    <button onClick={this.incrementSolo.bind(this)} className='btn btnPosition'>
+                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span className="sr-only">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <br /><br />
+
                 
                 
                 

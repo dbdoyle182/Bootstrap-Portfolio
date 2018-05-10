@@ -12,3 +12,21 @@
     width: 50%;
     height: 50px;
 }
+
+.carouselBtn:hover {
+    background-color: turquoise;
+}
+
+@media screen and (max-width: 700px) {
+    .carouselBtn {
+        font-size: 12px;
+        overflow: inherit
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .carouselBtn {
+        font-size: 10px;
+    }
+}
