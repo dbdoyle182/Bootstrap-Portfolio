@@ -4,6 +4,8 @@ import HomePage from './pages/HomePage';
 import Portfolio from './pages/Portfolio';
 import Skills from './pages/Skills';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'
+import './App.css'
 
 
 class App extends Component {
@@ -18,6 +20,7 @@ class App extends Component {
               <Route path='/portfolio' component={Portfolio} />
               <Route path='/skills' component={Skills} />
             </Switch>
+            <Footer />
           </div>
         </Router>
       

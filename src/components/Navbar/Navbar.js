@@ -21,9 +21,9 @@ const Navbar = () => (
                 Contact
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/" rel="noopener noreferrer">Github</a>
-                <a className="dropdown-item" href="/" rel="noopener noreferrer">LinkedIn</a>
-                <a className="dropdown-item" href="/" rel="noopener noreferrer">Resume</a>
+                <a className="dropdown-item" href="https://github.com/dbdoyle182" rel="noopener noreferrer">Github</a>
+                <a className="dropdown-item" href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" rel="noopener noreferrer">LinkedIn</a>
+                <a className="dropdown-item" href="https://uptowork.com/mycv/doyle" rel="noopener noreferrer">Resume</a>
                 </div>
             </li>
             </ul>

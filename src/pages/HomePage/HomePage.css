@@ -1,0 +1,11 @@
+.self {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%
+}
+
+.info {
+    background-color: slategray;
+    color: whitesmoke
+}
+
