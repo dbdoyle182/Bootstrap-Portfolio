@@ -5,7 +5,13 @@
 }
 
 .info {
-    background-color: slategray;
+    background-color: rgba(112, 168, 180, 25%);
+    border-radius: 6px;
     color: whitesmoke
 }
 
+@media (max-width: 700px) {
+    .info {
+        font-size: 10px
+    }
+}

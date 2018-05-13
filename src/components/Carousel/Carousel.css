@@ -1,6 +1,5 @@
 .carouselItem {
-    width: 50%;
-    height: 350px;
+    background-color: slategray;
 }
 
 .carouselGif {
@@ -11,6 +10,8 @@
 .carouselBtn {
     width: 50%;
     height: 50px;
+    color: whitesmoke;
+    border-radius: 0%
 }
 
 .carouselBtn:hover {

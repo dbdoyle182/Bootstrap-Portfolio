@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 
 const Footer = () => (
-    <footer className='text-center pt-5 pb-5 footer'>
+    <footer className='text-center pt-3 pb-3 footer'>
         <p>Daniel Doyle
         <br />
         Copyright 2018</p>

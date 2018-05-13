@@ -87,10 +87,10 @@ class Portfolio extends Component {
     render() {
         return (
             <section className='container'>
-                <div className='row'>
+                <div className='row mt-3'>
                     
                     <div className='col-md-12 text-center'>
-                        <h1>Collaborative Projects</h1>
+                        <h1 className='title'>Collaborative Projects</h1>
                         <Carousel 
                         url={this.state.project.url}
                         gif={this.state.project.gif}
@@ -107,13 +107,13 @@ class Portfolio extends Component {
                         <div className='container'>
                             <div className='row'>
                                 <div className='btnContainer col-sm-6 col-md-6'>
-                                    <button onClick={this.decrementClick.bind(this)} className='btn btnPosition'>
+                                    <button onClick={this.decrementClick.bind(this)} className='btn btnPosition btn-secondary'>
                                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span className="sr-only">Previous</span>
                                     </button>
                                 </div>
                                 <div className='btnContainer col-sm-6 col-md-6'>
-                                    <button onClick={this.incrementClick.bind(this)} className='btn btnPosition'>
+                                    <button onClick={this.incrementClick.bind(this)} className='btn btnPosition btn-secondary'>
                                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span className="sr-only">Next</span>
                                     </button>
@@ -129,7 +129,7 @@ class Portfolio extends Component {
                 <div className='row'>
                     
                     <div className='col-md-12 text-center'>
-                        <h1>Solo Projects</h1>
+                        <h1 className='title'>Solo Projects</h1>
                         <Carousel 
                         url={this.state.solo.url}
                         gif={this.state.solo.gif}
@@ -146,13 +146,13 @@ class Portfolio extends Component {
                         <div className='container'>
                             <div className='row'>
                                 <div className='btnContainer col-sm-6 col-md-6'>
-                                    <button onClick={this.decrementSolo.bind(this)} className='btn btnPosition'>
+                                    <button onClick={this.decrementSolo.bind(this)} className='btn btnPosition btn-secondary'>
                                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span className="sr-only">Previous</span>
                                     </button>
                                 </div>
                                 <div className='btnContainer col-sm-6 col-md-6'>
-                                    <button onClick={this.incrementSolo.bind(this)} className='btn btnPosition'>
+                                    <button onClick={this.incrementSolo.bind(this)} className='btn btnPosition btn-secondary'>
                                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span className="sr-only">Next</span>
                                     </button>

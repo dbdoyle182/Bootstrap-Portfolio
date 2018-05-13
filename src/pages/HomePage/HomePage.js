@@ -1,9 +1,10 @@
 import React from 'react';
 import './HomePage.css';
+import octicon from 'octicons';
 
 const HomePage = () => (
     <section className='container body'>
-        <div className='row mt-3 mb-3'>
+        <div className='row mt-5 mb-5'>
             <img src='../../../../images/me.jpg' className='mx-auto self'/>
         </div>
         <div className='row'>
@@ -12,8 +13,8 @@ const HomePage = () => (
             </p>
         </div>
         <div className='row'>
-            <button className='btn mx-auto'>
-                <img />Email
+            <button className='btn mx-auto mt-4 mb-4'>
+                <a className='email' href='mailto:dbdoyle182@gmail.com' target='_top' rel='noopener noreferrer'><i class="fa fa-envelope"></i> Email</a>
             </button>
         </div>
     </section>
