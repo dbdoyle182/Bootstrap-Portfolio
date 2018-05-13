@@ -14,10 +14,10 @@
         "description":"BO Description"
     },
     {
-        "github":"https://github.com/dbdoyle182/Contech",
-        "url":"https://contech-app.herokuapp.com/",
-        "name":"Contech3",
-        "gif":"./images/contechgif.gif",
-        "description":"Contech Description"
+        "github":"https://github.com/dbdoyle182/Moveasy",
+        "url":"https://dbdoyle182.github.io/Moveasy/",
+        "name":"Moveasy",
+        "gif":"./images/moveasy.gif",
+        "description":"Moveasy Description, real estate API has collapsed due to the fact it's a paid access API"
     }
 ]

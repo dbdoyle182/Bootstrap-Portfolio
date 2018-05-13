@@ -49,9 +49,10 @@ class Portfolio extends Component {
             })
         } else {
             console.log('reset')
+            
             this.setState({
                 soloNumber: 0,
-                project: Solo[0]
+                solo: Solo[0]
             })
             
         }

@@ -1,21 +1,49 @@
 [
     {
         "github":"https://github.com/dbdoyle182/Contech",
-        "url":"https://contech-app.herokuapp.com/",
-        "name":"Contech1",
-        "gif":"./images/contechgif.gif",
+        "url":"https://dbdoyle182.github.io/react-clicky-game/",
+        "name":"NBA Memory",
+        "gif":"./images/nba.gif",
+        "description":"NBA Memory Game Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/Contech",
+        "url":"https://dbdoyle182.github.io/TriviaGame/",
+        "name":"Nintendo Trivia",
+        "gif":"./images/trivia.gif",
+        "description":"Trivia Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/burger",
+        "url":"https://quiet-fjord-66365.herokuapp.com/",
+        "name":"Burger App",
+        "gif":"./images/burger.gif",
+        "description":"Contech Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/NYT_Scraper",
+        "url":"https://murmuring-coast-78701.herokuapp.com/",
+        "name":"New York Times Scraper",
+        "gif":"./images/nyt.gif",
+        "description":"Contech Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/FriendFinder",
+        "url":"https://agile-chamber-84529.herokuapp.com/",
+        "name":"Friend Finder",
+        "gif":"./images/friend.gif",
+        "description":"Contech Description"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/gifdump",
+        "url":"https://dbdoyle182.github.io/gifdump/",
+        "name":"Gif Collector",
+        "gif":"./images/gif.gif",
         "description":"Contech Description"
     },
     {
         "github":"https://github.com/dbdoyle182/Contech",
-        "url":"https://contech-app.herokuapp.com/",
-        "name":"Contech2",
-        "gif":"./images/contechgif.gif",
-        "description":"Contech Description"
-    },
-    {
-        "github":"https://github.com/dbdoyle182/Contech",
-        "url":"https://contech-app.herokuapp.com/",
+        "url":"https://quiet-fjord-66365.herokuapp.com/",
         "name":"Contech3",
         "gif":"./images/contechgif.gif",
         "description":"Contech Description"

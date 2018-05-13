@@ -1,11 +1,10 @@
 import React from 'react';
 import './HomePage.css';
-import octicon from 'octicons';
 
 const HomePage = () => (
     <section className='container body'>
         <div className='row mt-5 mb-5'>
-            <img src='../../../../images/me.jpg' className='mx-auto self'/>
+            <img src='../../../../images/me.jpg' className='mx-auto self' alt='Daniel Doyle'/>
         </div>
         <div className='row'>
             <p className='text-center info'>
