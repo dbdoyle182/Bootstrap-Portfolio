@@ -1,10 +1,11 @@
 import React from 'react';
 import './HomePage.css';
+import Me from '../../me.json'
 
 const HomePage = () => (
     <section className='container body'>
         <div className='row mt-5 mb-5'>
-            <img src='../../../../images/me.jpg' className='mx-auto self' alt='Daniel Doyle'/>
+            <img src={Me[0].me} className='mx-auto self' alt='Daniel Doyle'/>
         </div>
         <div className='row'>
             <p className='text-center info'>
