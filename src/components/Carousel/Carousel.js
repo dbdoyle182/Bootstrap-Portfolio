@@ -9,7 +9,7 @@ const Carousel = props => (
     <section className='container'>
         <Card>   
             <CardMedia
-            overlay={<CardTitle title={props.name} subtitle={props.description}  />}
+            overlay={<CardTitle title={props.name} />}
             >
             <img src={props.gif} alt={props.name}/>
             </CardMedia>
