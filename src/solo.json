@@ -1,13 +1,20 @@
 [
     {
-        "github":"https://github.com/dbdoyle182/Contech",
+        "github":"https://github.com/dbdoyle182/photobooth_app",
+        "url":"https://whispering-temple-27601.herokuapp.com/",
+        "name":"Photobooth Application",
+        "gif":"./image/photobooth.png",
+        "description":"A simple photobooth application with vanilla javascript and simple server"
+    },
+    {
+        "github":"https://github.com/dbdoyle182/react-clicky-game",
         "url":"https://dbdoyle182.github.io/react-clicky-game/",
         "name":"NBA Memory",
         "gif":"./images/nba.gif",
         "description":"A memory game that uses React to create a fluid and single page application."
     },
     {
-        "github":"https://github.com/dbdoyle182/Contech",
+        "github":"https://github.com/dbdoyle182/TriviaGame",
         "url":"https://dbdoyle182.github.io/TriviaGame/",
         "name":"Nintendo Trivia",
         "gif":"./images/trivia.gif",
