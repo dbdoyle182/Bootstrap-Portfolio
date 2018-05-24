@@ -76,7 +76,7 @@ class Portfolio extends Component {
         if (this.state.soloNumber === 0) {
             this.setState({
                 soloNumber: this.state.soloLength - 1,
-                solo: Projects[this.state.soloLength - 1]
+                solo: Solo[this.state.soloLength - 1]
             })
         } else {
             this.setState({
