@@ -3,7 +3,7 @@
         "github":"https://github.com/dbdoyle182/photobooth_app",
         "url":"https://whispering-temple-27601.herokuapp.com/",
         "name":"Photobooth Application",
-        "gif":"./images/photobooth.png",
+        "gif":"./images/photobooth.gif",
         "description":"A simple photobooth application with vanilla javascript and simple server"
     },
     {
