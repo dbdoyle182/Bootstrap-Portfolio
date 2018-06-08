@@ -4,7 +4,8 @@
         "url":"https://contech-app.herokuapp.com/",
         "name":"Contech",
         "gif":"./images/contechgif.gif",
-        "description":"Our application is an attempt to simplify definitions for people new to the industry. This is a single page application with user authentication using passport, bcrpyt and jsonwebtokens. The UI is designed using React and Material UI with local CSS as well as vanilla JavaScript to power navigation. Mongoose is used to manage our Mongo DB."
+        "description":"Our application is an attempt to simplify definitions for people new to the industry. This is a single page application with user authentication using passport, bcrpyt and jsonwebtokens. The UI is designed using React and Material UI with local CSS as well as vanilla JavaScript to power navigation. Mongoose is used to manage our Mongo DB.",
+        "technologies": ["React.js","JSWebTokens"]
     },
     {
         "github":"https://github.com/dbdoyle182/Bootcamp-Overflow",
