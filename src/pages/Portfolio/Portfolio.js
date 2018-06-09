@@ -60,11 +60,17 @@ class Portfolio extends Component {
             <section className='container'>
             <h1 className='title text-center mt-3'>
                 {!this.state.project.client ? <p>
-                    <span onClick={this.decrementClick.bind(this)} className="prevarrow mr-2 carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="tooltipprev sr-only">Previous</span>
+                    <span onClick={this.decrementClick.bind(this)} className="prevarrow mr-2 carousel-control-prev-icon" aria-hidden="true">
+                        <span className="tooltipprev">
+                        Previous
+                        </span>
+                    </span>
                         Personal Projects
-                    <span onClick={this.incrementClick.bind(this)} className="nextarrow ml-2 carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="tooltipnext sr-only">Next</span>
+                    <span onClick={this.incrementClick.bind(this)} className="nextarrow ml-2 carousel-control-next-icon" aria-hidden="true">
+                        <span className="tooltipnext">
+                        Next
+                        </span>
+                    </span>
             </p> : <p>Client Work for {this.state.project.clientname}</p>}
                 
             </h1>

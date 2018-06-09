@@ -9,21 +9,35 @@
     background-color: turquoise;
 }
 
-.prevarrow {
+.prevarrow .tooltipprev,
+.nextarrow .tooltipnext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 12px;
 
+    /* Position hover message */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
 }
 
-.nextarrow {
-
+.nextarrow .tooltipnext {
+    left: 105%;
 }
 
-.tooltipnext {
-
+.prevarrow .tooltipprev {
+    right: 155%;
+}
+.prevarrow:hover .tooltipprev,
+.nextarrow:hover .tooltipnext {
+    visibility: visible
 }
 
-.tooltipprev {
-
-}
 
 span {
     transition-property: transform;
