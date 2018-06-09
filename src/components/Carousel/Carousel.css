@@ -44,6 +44,10 @@ ul {
     column-gap: 10%;
 }
 
+.projectTitle {
+    color: white;
+}
+
 @media screen and (max-width: 700px) {
     .carouselBtn {
         font-size: 12px;

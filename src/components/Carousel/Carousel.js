@@ -32,6 +32,7 @@ class Carousel extends Component {
             
                 </div>
                 <div className='col-md-5'>
+                    <h6 className="projectTitle">{this.props.name}</h6>
                     <p className="descriptionTags">{this.props.description}</p>
                     <h6 className="descriptionTags">{this.props.name} was built with:</h6>
                     <ul>
