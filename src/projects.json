@@ -5,20 +5,51 @@
         "name":"Contech",
         "gif":"./images/contechgif.gif",
         "description":"Our application is an attempt to simplify definitions for people new to the industry. This is a single page application with user authentication using passport, bcrpyt and jsonwebtokens. The UI is designed using React and Material UI with local CSS as well as vanilla JavaScript to power navigation. Mongoose is used to manage our Mongo DB.",
-        "technologies": ["React.js","JSWebTokens"]
+        "technologies": ["React.js","JSWebTokens"],
+        "client":false
     },
     {
         "github":"https://github.com/dbdoyle182/Bootcamp-Overflow",
         "url":"https://bootcamp-overflow.herokuapp.com/",
         "name":"BootCamp_Overflow",
         "gif":"./images/bootcampoverflow.gif",
-        "description":"An application inspired by Stack Overflow but made specially for past/present/future students of the Trilogy Education Coding Bootcamp program. The page allows users to create a personal profile to interact with our forum to ask questions and leave comments. This tool aims to help the community of Trilogy learn together and stay in touch. The application is deployed through Heroku and designed with Bulma."
+        "description":"An application inspired by Stack Overflow but made specially for past/present/future students of the Trilogy Education Coding Bootcamp program. The page allows users to create a personal profile to interact with our forum to ask questions and leave comments. This tool aims to help the community of Trilogy learn together and stay in touch. The application is deployed through Heroku and designed with Bulma.",
+        "technologies":[
+            
+        ],
+        "client": false
     },
     {
         "github":"https://github.com/dbdoyle182/Moveasy",
         "url":"https://dbdoyle182.github.io/Moveasy/",
         "name":"Moveasy",
         "gif":"./images/moveasy.gif",
-        "description":"A front end application that allows the user to search for a city that they are interested in moving to and provides different outlets of data. This site uses user authenication to save their searches. This utilizes Firebase's real time database to store user data and selections. The real estate API is on a free account so unfortunately the data will not be available after March 25th. Designed using Foundation and local CSS."
+        "description":"A front end application that allows the user to search for a city that they are interested in moving to and provides different outlets of data. This site uses user authenication to save their searches. This utilizes Firebase's real time database to store user data and selections. The real estate API is on a free account so unfortunately the data will not be available after March 25th. Designed using Foundation and local CSS.",
+        "technologies":[
+            
+        ],
+        "client": false
+    },
+    {
+        "github":"https://github.com/dbdoyle182/photobooth_app",
+        "url":"https://whispering-temple-27601.herokuapp.com/",
+        "name":"Photobooth Application",
+        "gif":"./images/photobooth.gif",
+        "description":"A simple photobooth application with vanilla javascript and simple server",
+        "technologies":[
+            
+        ],
+        "client": false
+    },
+    {
+        "github":"https://github.com/dbdoyle182/react-clicky-game",
+        "url":"https://dbdoyle182.github.io/react-clicky-game/",
+        "name":"NBA Memory",
+        "gif":"./images/nba.gif",
+        "description":"A memory game that uses React to create a fluid and single page application.",
+        "technologies":[
+            
+        ],
+        "client": false
     }
 ]

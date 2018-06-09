@@ -7,15 +7,10 @@ import './Portfolio.css'
 
 class Portfolio extends Component {
     state = {
-        // Collaborative Project States
+        //Project States
         project: {},
         currentNumber: 0,
-        length: Projects.length,
-
-        // Solo Project States
-        solo: {},
-        soloNumber: 0,
-        soloLength: Solo.length
+        length: Projects.length
     }
     
     showProject() {
@@ -46,24 +41,6 @@ class Portfolio extends Component {
         }
     }
 
-    incrementSolo () {
-        if (this.state.soloNumber < this.state.soloLength - 1) {
-            console.log(this.state.soloNumber)
-            this.setState({
-                soloNumber: this.state.soloNumber + 1,
-                solo: Solo[this.state.soloNumber + 1]
-            })
-        } else {
-            console.log('reset')
-            
-            this.setState({
-                soloNumber: 0,
-                solo: Solo[0]
-            })
-            
-        }
-    }
-
     decrementClick () {
         if (this.state.currentNumber === 0) {
             this.setState({
@@ -78,26 +55,13 @@ class Portfolio extends Component {
         }
     }
 
-    decrementSolo () {
-        if (this.state.soloNumber === 0) {
-            this.setState({
-                soloNumber: this.state.soloLength - 1,
-                solo: Solo[this.state.soloLength - 1]
-            })
-        } else {
-            this.setState({
-                soloNumber: this.state.soloNumber - 1,
-                solo: Solo[this.state.soloNumber -1]
-            })
-        }
-    }
     render() {
         return (
             <section className='container'>
                 <div className='row mt-3'>
                     
                     <div className='col-md-12 text-center'>
-                        <h1 className='title'>Personal Projects</h1>
+                        <h1 className='title'>{!this.state.project.client ? <p>Personal Projects</p> : <p>Client Work for {this.state.project.clientname}</p>}</h1>
                         <Carousel 
                         url={this.state.project.url}
                         gif={this.state.project.gif}
