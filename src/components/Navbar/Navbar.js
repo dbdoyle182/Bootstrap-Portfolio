@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Navbar.css';
 
 const Navbar = () => (
     <nav className="sticky-top navbar navbar-expand-lg navbar-light bg-light" id="navbar">
