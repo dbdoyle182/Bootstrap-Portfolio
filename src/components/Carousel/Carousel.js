@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Card, CardMedia, CardTitle } from 'material-ui/Card';
 import './Carousel.css';
 
 
@@ -22,6 +21,8 @@ class Carousel extends Component {
     }
 
 
+
+
     render() {
         return (
         <section className='container'>
@@ -29,11 +30,24 @@ class Carousel extends Component {
                 <div className='col-md'>
                     <img src={this.props.gif} alt={this.props.name} />
                 </div>
+                <div className='col-md'>
+                    <p className="descriptionTags">{this.props.description}</p>
+                    <h6 className="descriptionTags">{this.props.name} was build with:</h6>
+                    <ul>
+                        {this.props.technologies ? this.props.technologies.map(tech => <li key={tech} className="techitem">{tech}</li>) : null}
+                    </ul>
+                    
+                </div>
             </div>
             
-            <div className='row'>
-                <a href={this.props.url} target='_blank' rel="noopener noreferrer"><button className='btn carouselBtn btn-secondary'>{this.props.name}</button></a>
-                <a href={this.props.github} target='_blank' rel="noopener noreferrer"><button className='btn carouselBtn btn-secondary'>{this.props.name} Github</button></a>
+            
+            <div className='row mt-5'>
+                <div className='col-md-6'>
+                    <a href={this.props.url} target='_blank' rel="noopener noreferrer"><button className='btn carouselBtn btn-secondary'>Visit Site!</button></a>
+                </div>
+                <div className='col-md-6'>
+                    <a href={this.props.github} target='_blank' rel="noopener noreferrer"><button className='btn carouselBtn btn-secondary'>See the code!</button></a>
+                </div>
             </div>
         </section>
         )

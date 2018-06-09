@@ -18,6 +18,31 @@
     background-color: turquoise;
 }
 
+.descriptionTags {
+    color: white
+}
+
+.techitem {
+    color: white
+}
+
+li {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    -moz-column-count: 4;
+    -moz-column-gap: 10%;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10%;
+    column-count: 4;
+    column-gap: 10%;
+}
+
 @media screen and (max-width: 700px) {
     .carouselBtn {
         font-size: 12px;

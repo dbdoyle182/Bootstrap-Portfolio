@@ -17,12 +17,18 @@ class Portfolio extends Component {
         soloNumber: 0,
         soloLength: Solo.length
     }
+    
+    showProject() {
+        console.log(this.state.project)
+    }
 
     componentDidMount(){
         this.setState({
             project: Projects[this.state.currentNumber],
             solo: Solo[this.state.soloNumber]
         })
+
+        this.showProject();
     }
 
     incrementClick () {
@@ -98,7 +104,7 @@ class Portfolio extends Component {
                         github={this.state.project.github}
                         name={this.state.project.name}
                         description={this.state.project.description}
-                        technologies={['prop','prop','prop']}
+                        technologies={this.state.project.technologies}
                         />
                     </div>
 
