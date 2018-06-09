@@ -33,7 +33,7 @@ class Carousel extends Component {
                 </div>
                 <div className='col-md-5'>
                     <p className="descriptionTags">{this.props.description}</p>
-                    <h6 className="descriptionTags">{this.props.name} was build with:</h6>
+                    <h6 className="descriptionTags">{this.props.name} was built with:</h6>
                     <ul>
                         {this.props.technologies ? this.props.technologies.map(tech => <li key={tech} className="techitem">{tech}</li>) : null}
                     </ul>
