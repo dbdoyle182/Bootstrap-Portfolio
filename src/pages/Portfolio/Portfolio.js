@@ -58,10 +58,19 @@ class Portfolio extends Component {
     render() {
         return (
             <section className='container'>
+            <h1 className='title text-center mt-3'>
+                {!this.state.project.client ? <p>
+                    <span onClick={this.decrementClick.bind(this)} className="prevarrow mr-2 carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="tooltipprev sr-only">Previous</span>
+                        Personal Projects
+                    <span onClick={this.incrementClick.bind(this)} className="nextarrow ml-2 carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="tooltipnext sr-only">Next</span>
+            </p> : <p>Client Work for {this.state.project.clientname}</p>}
+                
+            </h1>
                 <div className='row mt-3'>
-                    
+                
                     <div className='col-md-12 text-center'>
-                        <h1 className='title'>{!this.state.project.client ? <p>Personal Projects</p> : <p>Client Work for {this.state.project.clientname}</p>}</h1>
                         <Carousel 
                         url={this.state.project.url}
                         gif={this.state.project.gif}

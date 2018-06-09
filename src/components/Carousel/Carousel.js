@@ -29,6 +29,7 @@ class Carousel extends Component {
             <div className='row'>
                 <div className='col-md-7'>
                     <img className="carouselGif" src={this.props.gif} alt={this.props.name} />
+            
                 </div>
                 <div className='col-md-5'>
                     <p className="descriptionTags">{this.props.description}</p>
@@ -39,8 +40,6 @@ class Carousel extends Component {
                     
                 </div>
             </div>
-            
-            
             <div className='row mt-5'>
                 <div className='col-md-6'>
                     <a href={this.props.url} target='_blank' rel="noopener noreferrer"><button className='btn carouselBtn btn-secondary'>Visit Site!</button></a>
@@ -49,6 +48,9 @@ class Carousel extends Component {
                     <a href={this.props.github} target='_blank' rel="noopener noreferrer"><button className='btn carouselBtn btn-secondary'>See the code!</button></a>
                 </div>
             </div>
+            
+            
+            
         </section>
         )
     }

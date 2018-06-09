@@ -9,6 +9,30 @@
     background-color: turquoise;
 }
 
+.prevarrow {
+
+}
+
+.nextarrow {
+
+}
+
+.tooltipnext {
+
+}
+
+.tooltipprev {
+
+}
+
+span {
+    transition-property: transform;
+    transition-duration: 1s
+}
+span:hover {
+    transform: rotate(360deg)
+}
+
 .title {
     background-color: rgba(0,38,38,25%);
     color: whitesmoke;

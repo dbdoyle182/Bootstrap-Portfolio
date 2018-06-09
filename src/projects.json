@@ -5,7 +5,7 @@
         "name":"Contech",
         "gif":"./images/contechgif.gif",
         "description":"The inspiration behind this project came from our experience when beginning UNCC’s Coding Bootcamp. If we searched for an unfamiliar term online, we could easily find ourselves inundated with vast amounts of information. We found that it wasn’t just developers that ran into this issue, but also those that worked with developers. Our app is a quick reference tool that provides simplified definitions to these complex terms. Our app is for developers, those that work with developers, or anyone that is new to the industry.",
-        "technologies": ["React.js","JSWebTokens","Axios","Bcrypt","Express.js","Node.js","Moment","Mongoose","MongoDB","Passport","Validator","JSX"],
+        "technologies": ["React.js","JSWebTokens","Axios","Bcrypt","Express.js","Node.js","Moment","Mongoose","MongoDB","Passport","Validator","JSX", "ES6", "CSS", "CSS Grid","API","JSON"],
         "client":false
     },
     {
@@ -13,9 +13,24 @@
         "url":"https://bootcamp-overflow.herokuapp.com/",
         "name":"BootCamp_Overflow",
         "gif":"./images/bootcampoverflow.gif",
-        "description":"An application inspired by Stack Overflow but made specially for past/present/future students of the Trilogy Education Coding Bootcamp program. The page allows users to create a personal profile to interact with our forum to ask questions and leave comments. This tool aims to help the community of Trilogy learn together and stay in touch. The application is deployed through Heroku and designed with Bulma.",
+        "description":"Bootcamp_Overflow is application inspired by Stack_Overflow but built for the growing community of past/present/future students of Coding Bootcamps. The community on Stack Overflow tends to vary in terms of experience and how willing they are to cooperate. The attitude towards those new to computer science can be negative so we wanted to create a better environment for growing and learning. The page allows users to create a personal profile to interact with our forum to ask questions and leave comments. This tool aims to help the community of Trilogy learn together and stay in touch.",
         "technologies":[
-            
+            "Body-Parser",
+            "Bulma.io",
+            "Connect-Flash",
+            "Express.js",
+            "Node.js",
+            "Express Handlebars",
+            "Express Session",
+            "Express Validator",
+            "Handlebars",
+            "MySQL",
+            "Sequelize",
+            "Passport",
+            "JavaScript",
+            "CSS",
+            "API",
+            "JSON"
         ],
         "client": false
     },
