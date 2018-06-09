@@ -27,10 +27,10 @@ class Carousel extends Component {
         return (
         <section className='container'>
             <div className='row'>
-                <div className='col-md'>
-                    <img src={this.props.gif} alt={this.props.name} />
+                <div className='col-md-7'>
+                    <img className="carouselGif" src={this.props.gif} alt={this.props.name} />
                 </div>
-                <div className='col-md'>
+                <div className='col-md-5'>
                     <p className="descriptionTags">{this.props.description}</p>
                     <h6 className="descriptionTags">{this.props.name} was build with:</h6>
                     <ul>
