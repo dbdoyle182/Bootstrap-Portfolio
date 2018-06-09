@@ -41,7 +41,7 @@
 
 span {
     transition-property: transform;
-    transition-duration: 1s
+    transition-duration: 0.5s
 }
 span:hover {
     transform: rotate(360deg)
