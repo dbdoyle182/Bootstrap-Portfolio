@@ -16,21 +16,43 @@
 
 #github {
     top: 30%;
-    background-color: #4CAF50
+    background-color: #4CAF50;
+    z-index: 50;
 }
 
 #linkedin {
     top: 40%;
     background-color: #2196F3;
+    z-index: 50;
 }
 
 #resume {
     top: 50%;
     background-color: #f44336;
+    z-index: 50;
 }
 
 #email {
     top: 60%;
-    background-color: purple
+    background-color: purple;
+    z-index: 50;
+}
+
+@media (max-width: 600px) {
+    #github {
+        visibility: hidden;
+    }
+    
+    #linkedin {
+        visibility: hidden;
+    }
+    
+    #resume {
+        visibility: hidden;
+    }
+    
+    #email {
+        visibility: hidden;
+    }
 }
 

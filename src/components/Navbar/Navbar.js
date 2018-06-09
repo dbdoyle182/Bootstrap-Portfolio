@@ -16,7 +16,7 @@ const Navbar = () => (
             <li className="nav-item">
                 <a className="nav-link" href="/DoyleDev/portfolio">Portfolio</a>
             </li>
-            {/*<li className="nav-item dropdown">
+            <li className="nav-item dropdown contactInfo">
                 <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Contact
                 </a>
@@ -25,7 +25,7 @@ const Navbar = () => (
                 <a className="dropdown-item" href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" rel="noopener noreferrer">LinkedIn</a>
                 <a className="dropdown-item" href="https://uptowork.com/mycv/doyle" rel="noopener noreferrer">Resume</a>
                 </div>
-            </li>*/}
+            </li>
             </ul>
             {/* <form className="form-inline my-2 my-lg-0">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />

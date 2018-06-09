@@ -13,6 +13,16 @@
         
 }
 
+.contactInfo {
+    visibility: hidden;
+}
+
+@media (max-width: 600px) {
+    .contactInfo {
+        visibility: visible;
+    }
+}
+
 
 
 
