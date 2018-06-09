@@ -1,0 +1,36 @@
+#SideNav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#SideNav a:hover {
+    left: 0
+}
+
+#github {
+    top: 50%;
+    background-color: #4CAF50
+}
+
+#linkedin {
+    top: 60%;
+    background-color: #2196F3;
+}
+
+#resume {
+    top: 70%;
+    background-color: #f44336;
+}
+
+#email {
+    top: 80%;
+    background-color: purple
+}
+

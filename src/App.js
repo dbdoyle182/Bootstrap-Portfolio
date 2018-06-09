@@ -15,6 +15,12 @@ class App extends Component {
         <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Navbar />
+            <div id="SideNav" className="sidenav">
+              <a href="" id="github">Github</a>
+              <a href="" id="linkedin">LinkedIn</a>
+              <a href="" id="resume">Resume</a>
+              <a href="" id="email">Contact</a>
+            </div>
             <Switch>
               <Route exact path='/' component={HomePage} />
               <Route path='/portfolio' component={Portfolio} />
