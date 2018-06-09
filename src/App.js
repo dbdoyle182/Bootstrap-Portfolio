@@ -16,10 +16,10 @@ class App extends Component {
           <div>
             <Navbar />
             <div id="SideNav" className="sidenav">
-              <a href="" id="github">Github</a>
-              <a href="" id="linkedin">LinkedIn</a>
-              <a href="" id="resume">Resume</a>
-              <a href="" id="email">Contact</a>
+              <a id="github" href="https://github.com/dbdoyle182" rel="noopener noreferrer">Github</a>
+              <a id="linkedin" href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" rel="noopener noreferrer">LinkedIn</a>
+              <a id="resume" href="https://uptowork.com/mycv/doyle" rel="noopener noreferrer">Resume</a>
+              <a id='email' href='mailto:dbdoyle182@gmail.com' target='_top' rel='noopener noreferrer'><i class="fa fa-envelope"></i> Contact</a>
             </div>
             <Switch>
               <Route exact path='/' component={HomePage} />
