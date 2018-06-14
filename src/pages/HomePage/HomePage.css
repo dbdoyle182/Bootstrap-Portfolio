@@ -10,9 +10,19 @@
     color: whitesmoke
 }
 
+.emailBtn {
+    visibility: hidden;
+}
+
 @media (max-width: 700px) {
     .info {
         font-size: 16px
+    }
+}
+
+@media (max-width: 600px) {
+    .emailBtn {
+        visibility: visible
     }
 }
 
