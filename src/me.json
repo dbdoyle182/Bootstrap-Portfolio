@@ -1,5 +1,9 @@
 [
     {
-        "me":"./images/me.jpg"
+        "me":"./images/me.jpg",
+        "me2": "./images/Headshot1.jpg",
+        "me3": "./images/Headshot2.jpg",
+        "me4": "./images/Headshot3.jpg"
+
     }
 ]
